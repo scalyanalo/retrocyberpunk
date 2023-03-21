@@ -1,0 +1,136 @@
+img {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-left : 600px;
+	margin-top : 80px;
+
+
+}
+body{
+background-image : url(997484-cyberpunk-video-games-pixel-art-The-Last-Night.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+@media screen and (max-width: 767px) {
+	body {
+		background-size: contain;
+		background-attachment: scroll;
+	}
+	img {
+		background-size: contain;
+		background-attachment: scroll;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+
+@media (min-width: 1025px) {
+}
+
+table {
+	margin-top : 120px;
+	border : solid;
+  border-color: black;
+  text-align : center; 
+  width : 900px;
+  height : 400px;
+}
+td {
+	  border: 2px solid rgba(202, 196, 242);
+	  font-size : 35px;
+	  font-family: 'Montserrat', sans-serif;
+	  letter-spacing: .16em;
+	  color : #fffdfa;
+}
+td:hover {
+  outline: 2px solid ;
+  box-shadow: 0px 5px 10px rgba(54, 24, 245);
+ color  : rgba(54, 24, 245);
+ text-shadow :0px 5px 10px rgba(54, 24, 245);
+   text-shadow :0px 5px 15px rgba(54, 24, 245); 
+}
+.typing-animation {
+	font-family: 'Montserrat', sans-serif;
+  color: #edf0e1;
+   text-shadow: 0 0 2px #c4c4c4, 0 0 4px #c4c4c4;
+   padding-top: 100px;
+  text-align : center;
+  font-size:30px;
+  overflow: hidden; /* скрываем текст, который будет печататься */
+  border-right: 0.15em ;
+  white-space: pre-wrap; 
+  margin: 0 auto; /* выравниваем по центру */
+  letter-spacing: 0.17em; /* расстояние между символами, чтобы было видно, что текст печатается */
+  animation:
+    typing 5s steps(50, end),
+    blink-caret .75s step-end infinite; /* задаем анимации: печатание текста и мигание курсора */
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .typing-animation {
+    font-size: 30px;
+  }
+  table {
+	 font-size : 30px;
+  }
+}
+@media only screen and (max-width: 767px) {	
+  .typing-animation {
+    font-size: 20px;
+	 table {
+	 font-size : 25px;
+  }
+  }
+}
+.gif-wrapper {
+  display: flex; /* используем flexbox */
+  justify-content: center; /* выравниваем по горизонтали по центру */
+  align-items: center; /* выравниваем по вертикали по центру */
+  height: 100vh; /* задаем высоту блока равной высоте экрана */
+}
+
+.gif-wrapper img {
+  max-width: 100%; /* задаем максимальную ширину изображения равной ширине блока */
+  max-height: 100%; /* задаем максимальную высоту изображения равной высоте блока */
+}
+.gif-wrapper {
+  position: relative; /* позиционирование относительно родителя */
+  height: 100vh;
+}
+h1 {
+  font-size: 6rem;
+  font-family: 'Press Start 2P', sans-serif;
+  color: #FF69B4;
+  text-shadow: 0 0 2px #FF69B4, 0 0 4px #FF69B4, 0 0 6px #FF69B4, 0 0 8px #FF69B4, 0 0 10px #FF69B4, 0 0 12px #FF69B4, 0 0 14px #FF69B4;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-top : 70 px;
+}
+a {
+color: #FF69B4;
+  text-shadow: 0 0 2px #FF69B4, 0 0 4px #FF69B4;
+}
